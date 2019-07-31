@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_color"
+    tools:context="com.example.saurabhomer.cityprobe.Datasets">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="@string/status"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snooze"
+        android:id="@+id/snooze"
+        android:onClick="btnsnooze"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alertmsg"
+        android:textStyle="bold"
+        android:text="no massage"
+        android:textColor="#fe3b2824"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Start Time"
+            android:id="@+id/start_time"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Change Time"
+            android:id="@+id/change_time"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="End Time"
+            android:id="@+id/end_time"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clock Sync"
+            android:onClick="syncClock"
+            android:id="@+id/clockSynchronisation"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/data_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/message"
+        android:fontFamily="casual"
+        android:textSize="13sp"
+        android:textColor="#FFF"
+        android:gravity="bottom" />
+
+
+</LinearLayout>

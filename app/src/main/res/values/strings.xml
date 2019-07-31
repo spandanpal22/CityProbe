@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">IndoAir</string>
+    <string name="button">Button</string>
+    <string name="name">NAME</string>
+    <string name="textview">TextView</string>
+    <string name="message">MESSAGE</string>
+    <string name="lol">lol</string>
+    <string name="enter_message">enter_message</string>
+    <string name="listen">LISTEN</string>
+
+    <string name="send">SEND</string>
+    <string name="status">status</string>
+    <string name="getlocation">Location</string>
+    <string name="indoor"><u>Indoor Information</u></string>
+    <string name="outdoor"><u>Outdoor Information</u></string>
+    <string name="class_started">Class Started</string>
+    <string name="class_ended">Class Ended</string>
+    <string name="class_middle">Class Middle</string>
+
+    <string name="occupants">Number of occupants</string>
+
+    <array name="location">
+        <item>Indoor</item>
+        <item>Outdoor</item>
+    </array>
+    <array name="classroom">
+        <item>6rugu</item>
+        <item>h6hf7</item>
+    </array>
+    <array name="college">
+        <item>NITDGP</item>
+    </array>
+    <array name="date"></array>
+    <array name="data_type">
+        <item>Classroom Data</item>
+        <item>Pollution Data</item>
+    </array>
+
+
+</resources>

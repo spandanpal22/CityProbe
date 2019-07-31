@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:weightSum="10"
+    android:gravity="center">
+
+
+  
+        <!-- ROW 1  -->
+        <!-- COLUMN 1  -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#fff"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu4"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:background="#d5f502"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/blueetooth_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="casual"
+                    android:text="Connection"
+                    android:layout_marginTop="7dp"
+
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/card_text_size"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- COLUMN 2  -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu3"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/data" />
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Data"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/card_text_size"
+                    android:fontFamily="casual"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+        <!-- ROW 2  -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- COLUMN 1  -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu1"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+
+                    android:src="@drawable/line_graph" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="casual"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/card_text_size"
+                    android:textStyle="bold"
+
+                    android:text="Graph"
+                    android:layout_marginTop="7dp"
+
+                    android:textAlignment="center"
+
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- COLUMN 2  -->
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/menu2"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/maps" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAP"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/card_text_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+        <!-- ROW 3  -->
+        <!-- COLUMN 1  -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu5"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/docs" />
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Try old version"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/card_text_size"
+                    android:fontFamily="casual"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- COLUMN 2  -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu6"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+
+                    android:src="@drawable/settings" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="casual"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/card_text_size"
+                    android:textStyle="bold"
+
+                    android:text="Settings"
+                    android:layout_marginTop="7dp"
+
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu7"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fetch_data" />
+
+                <TextView
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fetch Data"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/card_text_size"
+                    android:fontFamily="casual"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
